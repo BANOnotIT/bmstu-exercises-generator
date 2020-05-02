@@ -1,0 +1,72 @@
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #666;
+    margin: 1.5rem 0 1rem;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    margin: 0;
+}
+
+main {
+    font-size: 1.25rem;
+    max-width: 80ch;
+    margin: 0 auto;
+}
+
+#js-renew-btn {
+    font-family: Caveat, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+
+    color: white;
+    outline: transparent;
+    border: none;
+    border-radius: 1rem;
+    box-sizing: content-box;
+    padding: 1rem;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    animation: animatedgradient 60s linear alternate infinite;
+    background-size: 300% 300%;
+    transition: all 400ms ease;
+    transform: translateY(0);
+    box-shadow: 0 0 0 0 #c1adff;
+}
+
+#js-renew-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 13px -4px #c1adff;
+}
+
+#js-renew-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 13px -4px #c1adff;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
