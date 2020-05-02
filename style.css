@@ -71,3 +71,24 @@ main {
         background-position: 0 50%;
     }
 }
+
+article {
+    margin: 3rem 0;
+}
+
+footer {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+footer > * {
+    color: #555;
+    font-size: 1.25rem;
+    display: inline-block;
+    padding: .5rem 2rem;
+}
+
+footer > *:not(:last-child) {
+    border-right: 1px solid gray;
+}
